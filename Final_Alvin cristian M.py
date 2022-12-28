@@ -1,5 +1,11 @@
 import math
 
+def info(self):
+        print("NAMA : ALVIN CRISTIAN M")
+        print("KELAS : INFORMATIKA G")
+
+
+
 class Volume:
     def __init__(self):
         self.sisi = 0
@@ -17,10 +23,7 @@ class Volume:
     def tabung(self):
         print("Volume Tabung:", math.pi * (self.jari_jari ** 2) * self.tinggi)
         
-    def info(self):
-        print("NAMA : ALVIN CRISTIAN M")
-        print("KELAS : INFORMATIKA G")
-
+    
 class Luas:
     def __init__(self):
         self.sisi = 0
